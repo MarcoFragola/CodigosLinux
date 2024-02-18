@@ -2,12 +2,14 @@
 
 ### Funcionamiento
 
-Mediante la función **ECHO** el programa te pide que introduzcas una de las siguientes tres opciones seguida de dos valores
+Mediante la función **ECHO** el programa te imprime en pantalla un texto pidiéndote que introduzcas una de las siguientes tres opciones, seguida de dos valores.
 - COMPARAR
 - CARPETA
 - FICHERO
+  
+(*En el caso de elegir **COMPARAR** los dos valores siguientes tendrían que ser numéricos*)
 
-Si ejecutas el script con el término **COMPARAR**, el script compara el segundo y tercer termino numérico.
+Si ejecutas el script con el término **COMPARAR**, el script compara el segundo y tercer termino.
 - Si el segundo término es mayor que el tercero, imprime *El tercer término es menor que el segundo*.
 - Si el tercero es mayor o igual que el segundo, imprime *El tercer término es mayor que el segundo*.
 
@@ -15,4 +17,4 @@ Si ejecutas el script con el primer término **CARPETA**, crea una carpeta con e
 
 Si ejecutas el script con el primer argumento **FICHERO**, crea una carpeta llamada **carpeta_(segundo-valor)** y dentro de ella un directorio con el nombre **(tercer-valor).txt**.
 
-Todas estas funciones están bajo condicionales **IF**
+Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
