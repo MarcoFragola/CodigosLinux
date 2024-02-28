@@ -21,7 +21,7 @@ Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Script Linux Terminal Python para bash
+# Terminal Python para bash
 
 ### Funcionamiento
 
