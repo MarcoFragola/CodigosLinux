@@ -18,3 +18,10 @@ Si ejecutas el script con el primer término **CARPETA**, crea una carpeta con e
 Si ejecutas el script con el primer argumento **FICHERO**, crea una carpeta llamada **carpeta_(segundo-valor)** y dentro de ella un directorio con el nombre **(tercer-valor).txt**.
 
 Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Script Linux Terminal Python para bash
+
+### Funcionamiento
+
