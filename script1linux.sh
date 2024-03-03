@@ -30,7 +30,9 @@ fi
 
 #ScriptTerminalPropia.sh
 
-
+#!bin/bash/
+echo "$DESKTOP"
+python3 scriptLinuxPropio.py
 
 #ScriptLinuxProio.py
 import subprocess
