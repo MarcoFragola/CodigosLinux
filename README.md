@@ -25,6 +25,13 @@ Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
 
 ### Funcionamiento
 
+   Para poder acceder al completo funcionamiento del prgrama, es necesario el codigo de python y ejecutarlo en Linux usando el siguiente argumento
+   **#!bin/bash/
+     echo "$DESKTOP"
+     python3 scriptLinuxPropio.py
+De esa manera, el se ejecuta el proceso "padre" que a su vez ejecuta al "hijo" .
+
+
 Se diseña una terminal auxiliar que acepte codigos, esta terminal se ejecuta con el main y con carpetas importadas deste python que tambien aceptan subprocesos.
 Para un mejor entendimiento, nuestra terminal ofrece un historial de los comandos disponibles:
 - exit / quit: Salir de la terminal
