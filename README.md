@@ -19,9 +19,23 @@ Si ejecutas el script con el primer argumento **FICHERO**, crea una carpeta llam
 
 Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Terminal Python para bash
 
 ### Funcionamiento
 
+Se diseña una terminal auxiliar que acepte codigos, esta terminal se ejecuta con el main y con carpetas importadas deste python que tambien aceptan subprocesos.
+Para un mejor entendimiento, nuestra terminal ofrece un historial de los comandos disponibles:
+- exit / quit: Salir de la terminal
+- clear: Limpiar la pantalla
+- creadores: Mostrar los creadores del programa
+- bandera_españa: Mostrar la bandera de España
+- epilepsia: Activar/desactivar el modo de epilepsia
+- fondo_negro: Establecer fondo negro y letras blancas
+- fondo_blanco: Establecer fondo blanco y letras negras
+- tres_en_raya: Jugar al Tres en Raya
+  Tambien cumple que si un comando no es detectado por python, este se consulta en .bash y si existe, se ejecuta
+-Aclarar que al lanzar el script te detecta como directorio principal donde tienes guardado el script.
+
+El programa tambien cuenta con un prompt que se repite cada vez que le das a ENTER y simula lo que es una Terminal
