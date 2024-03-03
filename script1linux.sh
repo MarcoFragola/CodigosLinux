@@ -28,8 +28,11 @@ fi
 
 #-------------------------------------------------------------------------------------------------------------------------------------
 
+#ScriptTerminalPropia.sh
 
-#ScriptLinuxTerminalPython
+
+
+#ScriptLinuxProio.py
 import subprocess
 import tkinter as tk
 import turtle
