@@ -25,11 +25,11 @@ Las tres funcuiones diferentes están bajo condicionales **IF** y **ELSE**
 
 ### Funcionamiento
 
-   Para poder acceder al completo funcionamiento del prgrama, es necesario el codigo de python y ejecutarlo en Linux usando el siguiente argumento
-   **#!bin/bash/
+     Para poder acceder al completo funcionamiento del prgrama, es necesario el codigo de python y el de linux y ejecutarlo usando el siguiente argumento
+     #!bin/bash/
      echo "$DESKTOP"
      python3 scriptLinuxPropio.py
-De esa manera, el se ejecuta el proceso "padre" que a su vez ejecuta al "hijo" .
+De esa manera se ejecuta el proceso "padre" que a su vez ejecuta al "hijo" y para parar los programas, basta con el comando **kill-9**
 
 
 Se diseña una terminal auxiliar que acepte codigos, esta terminal se ejecuta con el main y con carpetas importadas deste python que tambien aceptan subprocesos.
@@ -41,7 +41,7 @@ Para un mejor entendimiento, nuestra terminal ofrece un historial de los comando
 - epilepsia: Activar/desactivar el modo de epilepsia
 - fondo_negro: Establecer fondo negro y letras blancas
 - fondo_blanco: Establecer fondo blanco y letras negras
-- tres_en_raya: Jugar al Tres en Raya
+- tres_en_raya: Jugar al Tres en Raya , juego interactivo con el raton
   Tambien cumple que si un comando no es detectado por python, este se consulta en .bash y si existe, se ejecuta
 -Aclarar que al lanzar el script te detecta como directorio principal donde tienes guardado el script.
 
