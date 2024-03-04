@@ -46,4 +46,4 @@ Para un mejor entendimiento, nuestra terminal ofrece un historial de los comando
 También cumple que si un comando no es detectado por python, este se consulta en .bash y si existe, se ejecuta.
 Aclarar que, al lanzar el script te detecta como directorio principal donde tienes guardado el script.
 
-El programa también cuenta con un prompt que se repite cada vez que le das a ENTER y simula lo que es una Terminal.
+El programa también cuenta con un prompt que se repite cada vez que le das a **ENTER** y simula lo que es una Terminal.
