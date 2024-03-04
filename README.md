@@ -29,7 +29,7 @@ Las tres funciones diferentes están bajo condicionales **IF** y **ELSE**
      #!bin/bash/
      echo "$DESKTOP"
      python3 scriptLinuxPropio.py
-De esa manera se ejecuta el proceso "padre" que a su vez ejecuta al "hijo" y para parar los programas, basta con utilizar el comando **kill-9**
+De esa manera se ejecuta el proceso "padre" que a su vez ejecuta al "hijo", y para parar los programas, basta con utilizar el comando **kill-9**
 
 
 Hemos diseñado una terminal auxiliar que acepte comandos, algunos nuevos creaodos por nosotros y tambien algunos ya existentes en linux. Esta terminal se ejecuta con el main y con carpetas importadas deste python que también aceptan subprocesos.
