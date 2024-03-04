@@ -47,3 +47,5 @@ También cumple que si un comando no es detectado por python, este se consulta e
 Aclarar que, al lanzar el script te detecta como directorio principal donde tienes guardado el script.
 
 El programa también cuenta con un prompt que se repite cada vez que le das a **ENTER** y simula lo que es una Terminal.
+
+*EPILEPSIA FOTOSENSIBLE: SI TIENE ANTECEDENTES DE EPILEPSIA O CONVULSIONES, CONSULTE CON SU MÉDICO ANTES DE USAR EL PRODUCTO. CIERTOS PATRONES PUEDEN PROVOCAR CONVULSIONES EN PERSONAS SIN ANTECEDENTES.*
