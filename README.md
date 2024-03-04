@@ -32,17 +32,18 @@ Las tres funciones diferentes están bajo condicionales **IF** y **ELSE**
 De esa manera se ejecuta el proceso "padre" que a su vez ejecuta al "hijo" y para parar los programas, basta con utilizar el comando **kill-9**
 
 
-Se diseña una terminal auxiliar que acepte códigos, esta terminal se ejecuta con el main y con carpetas importadas deste python que también aceptan subprocesos.
+Hemos diseñado una terminal auxiliar que acepte comandos, algunos nuevos creaodos por nosotros y tambien algunos ya existentes en linux. Esta terminal se ejecuta con el main y con carpetas importadas deste python que también aceptan subprocesos.
 Para un mejor entendimiento, nuestra terminal ofrece un historial de los comandos disponibles:
-- exit / quit: Salir de la terminal
-- clear: Limpiar la pantalla
-- creadores: Mostrar los creadores del programa
-- bandera_españa: Mostrar la bandera de España
-- epilepsia: Activar/desactivar el modo de epilepsia
-- fondo_negro: Establecer fondo negro y letras blancas
-- fondo_blanco: Establecer fondo blanco y letras negras
-- tres_en_raya: Jugar al Tres en Raya , juego interactivo con el ratón
-  También cumple que si un comando no es detectado por python, este se consulta en .bash y si existe, se ejecuta
--Aclarar que, al lanzar el script te detecta como directorio principal donde tienes guardado el script.
+- **exit / quit**: Salir de la terminal
+- **clear**: Limpiar la pantalla
+- **creadores**: Muestra los nombres de los creadores del programa
+- **bandera_españa**: Muestra en pantalla la bandera de España
+- **epilepsia**: Activa/desactiva el modo de epilepsia (*La pantalla parpadea sin parar en varios colores*)
+- **fondo_negro**: Establece el fondo negro y las letras blancas en la terminal
+- **fondo_blanco**: Establece el fondo blanco y las letras negras
+- **tres_en_raya**: Jugar al Tres en Raya, juego interactivo con el ratón
+  
+También cumple que si un comando no es detectado por python, este se consulta en .bash y si existe, se ejecuta.
+Aclarar que, al lanzar el script te detecta como directorio principal donde tienes guardado el script.
 
 El programa también cuenta con un prompt que se repite cada vez que le das a ENTER y simula lo que es una Terminal.
